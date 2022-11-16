@@ -14,10 +14,35 @@
     "programmer" : "송민우1",
    "designer" : "송민우2"
     }
+    coworkers.bookkeeper = "송민우3";
+    coworkers["data scientist"] = "송민우4";
 
-    document.write("programmer : " + coworkers.programmer + "<br>");
-    document.write("designer : " + coworkers.designer + "<br>");
+    
+
+
+    // document.write("programmer : " + coworkers.programmer + "<br>");
+    // document.write("designer : " + coworkers.designer + "<br>");
+    // document.write("bookkeeper : " + coworkers.bookkeeper + "<br>");
+    // document.write("data scienist : " +coworkers["data scientist"]+ "<br>");
    </script>
+  
+   <h1>객체 반복 연습중</h1>
+   <!-- <script>
+   for (var key in coworkers) {
+	document.write(coworkers[key] + '<br>');
+	}
+   </script> -->
+   <h1>객체 반복 함수 정의 및 사용 연습중2</h1>
+   <script>
+    coworkers.showAll = function() {
+     for(var key in this) {
+        document.write(key + ' : ' + this[key] + '<br>');
+    }
+    }
+    coworkers.showAll();
+
+    </script>
+   
    
 <body>
 <h2>함수 사용 2 매개변수 및 인자값, 리턴값 테스트중</h2>

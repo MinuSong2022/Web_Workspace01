@@ -45,7 +45,7 @@ var target = document.querySelector('body');
         if (self.value === 'night') {
            // target.style.backgroundColor = 'black';
             // BodySetBackgroudSetColor('black')
-            Body.setBackgroudColor('black');
+            Body.setBackgroundColor('black');
            // target.style.color = 'white';
            Body.setColor('white')
             self.value = 'day'
@@ -56,7 +56,7 @@ var target = document.querySelector('body');
         } else {
             //target.style.backgroundColor = 'white';
             // BodySetBackgroudSetColor('white')
-            Body.SetBackgroudSetColor('white');
+            Body.SetBackgroundColor('white');
            // target.style.color = 'black';
             BodySetColor('black');
             self.value = 'night'
